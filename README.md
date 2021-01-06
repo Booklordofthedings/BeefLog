@@ -1,2 +1,2 @@
 # BeefLog
-My personal loggin library for the beef programming language
+My personal logging library for the beef programming language
