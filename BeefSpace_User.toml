@@ -1,0 +1,98 @@
+FileVersion = 1
+LastConfig = "Debug"
+LastPlatform = "Win64"
+RecentFilesList = ["src\\Logger.bf"]
+
+[MainWindow]
+X = 651
+Y = 14
+Width = 1200
+Height = 1024
+ShowKind = "Normal"
+
+[MainDockingFrame]
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 284.0
+RequestedHeight = 1174.0
+SizePriority = 0.5828125
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 1128.0
+RequestedHeight = 723.08
+SizePriority = 723.08
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+RequestedWidth = 173.0
+RequestedHeight = 508.04
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Workspace"
+TabWidth = 113.7255
+Type = "ProjectPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+Permanent = true
+RequestedWidth = 1602.08
+RequestedHeight = 150.0
+SizePriority = 1602.08
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Logger.bf"
+TabWidth = 94.11765
+Type = "SourceViewPanel"
+FilePath = "src\\Logger.bf"
+CursorPos = 438
+ProjectName = "BeefLog"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 284.0
+RequestedHeight = 278.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Call Stack"
+TabWidth = 103.9216
+Type = "CallStackPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Auto"
+TabWidth = 76.47059
+Type = "AutoWatchPanel"
+Columns = [{Width = 219.0}, {Width = 219.0}, {Width = 219.0}]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Memory"
+TabWidth = 98.03922
+Type = "MemoryPanel"
+AutoResize = "Auto_Mul8"
+RequestedWidth = 356.0
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Watch"
+TabWidth = 85.29412
+Type = "WatchPanel"
+Columns = [{Width = 219.0}, {Width = 219.0}, {Width = 219.0}]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Find Results"
+TabWidth = 117.6471
+Type = "FindResultsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Output"
+TabWidth = 89.21569
+Type = "OutputPanel"
