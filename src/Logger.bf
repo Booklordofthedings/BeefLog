@@ -89,6 +89,7 @@ namespace BeefLog
 				Directory.GetCurrentDirectory(LogPath);
 			}
 			String path = scope String(scope $"{LogPath}\\{LogFileName}.log");
+			Console.WriteLine(path);
 			FileStream fs = scope FileStream();
 			var result = fs.Open(path,.Append,.Write);
 			for(Logger d in LogData)
@@ -98,7 +99,7 @@ namespace BeefLog
 					fs.TryWrite(.((uint8*)d.m.Ptr,d.m.Length));
 				}
 			}
-			LogData.Clear();
+			ClearAndDeleteItems(LogData);
 		}
 
 
@@ -123,6 +124,10 @@ namespace BeefLog
 			m = new String(scope $"[{DateTime.Now.ToUniversalTime()}][{MType}][{logIDString}]:{message} \n");
 		}
 		//Destructor
-		private ~this() { delete(this.m); }
+		public ~this()
+		{
+			delete(this.m);
+			
+		}
 	}
 }
