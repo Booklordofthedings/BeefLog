@@ -1,11 +1,11 @@
 FileVersion = 1
 LastConfig = "Debug"
 LastPlatform = "Win64"
-RecentFilesList = ["src\\Logger.bf"]
+RecentFilesList = ["src\\Logger.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Int.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Span.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\String.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\DateTime.bf"]
 
 [MainWindow]
-X = 651
-Y = 14
+X = 443
+Y = 134
 Width = 1200
 Height = 1024
 ShowKind = "Normal"
@@ -51,15 +51,16 @@ Type = "TabbedView"
 [[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Logger.bf"
-TabWidth = 94.11765
+TabWidth = 84.90196
 Type = "SourceViewPanel"
 FilePath = "src\\Logger.bf"
-CursorPos = 438
+CursorPos = 2646
+VertPos = 585.0
 ProjectName = "BeefLog"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets]]
 RequestedWidth = 284.0
-RequestedHeight = 278.0
+RequestedHeight = 181.0
 Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
